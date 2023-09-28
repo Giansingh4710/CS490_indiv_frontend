@@ -1,6 +1,6 @@
 import Navbar from '../comps/navbar.js'
 
-function LandingPage() {
+export default function LandingPage() {
   function make_li(name, obj) {
     const li = document.createElement('li')
     li.innerText = `${name}: ${obj[name]}`
@@ -112,5 +112,3 @@ function LandingPage() {
     </div>
   )
 }
-
-export default LandingPage

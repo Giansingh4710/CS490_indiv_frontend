@@ -8,10 +8,6 @@ import LandingPage from './pages/landing.js'
 import MoviesPage from './pages/movies.js'
 import CustomersPage from './pages/customers.js'
 
-function AboutPage() {
-  return <h1>About Page</h1>;
-}
-
 function App() {
   return (
     <BrowserRouter>
