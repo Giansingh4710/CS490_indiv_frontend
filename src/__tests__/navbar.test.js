@@ -2,6 +2,7 @@ import React from 'react'
 import { render, screen } from '@testing-library/react'
 import { MemoryRouter } from 'react-router-dom'
 import Navbar from '../comps/navbar.js'
+import CustomersPage from '../pages/customers.js'
 
 describe('Navbar Component', () => {
   test('renders three navigation links', () => {
@@ -45,3 +46,4 @@ describe('Navbar Component', () => {
     })
   })
 })
+

@@ -3,20 +3,25 @@
 }
 
 #navbar {
-  background-color: #282c34;
-  /* min-height: 100vh; */
+  background-color: #333; /* Background color of the navigation bar */
+  padding: 10px;
+}
+
+#navbar ul {
+  list-style: none;
   display: flex;
-  flex-direction: column;
-  align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  padding: 0;
 }
 
 .navLink {
-  background-color: white;
-  color: black;
-  margin: 10;
+  text-decoration: none;
+  color: #fff; /* Link text color */
+  margin: 0 15px; /* Add space between links */
+}
+
+.navLink:hover {
+  text-decoration: underline; /* Underline link on hover */
 }
 
 table {
